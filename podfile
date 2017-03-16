@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+#use_frameworks!
+project 'IMSample--网易云信.project'
+target 'IMSample--网易云信' do
+    pod 'NIMKit'
+end

@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E23055F2B6AB64092124B1 /* libPods-IMSample--网易云信.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7408374548C101838ABD91F /* libPods-IMSample--网易云信.a */; };
+		DADEA9411E7A323500AC25B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9401E7A323500AC25B2 /* main.m */; };
+		DADEA9441E7A323500AC25B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9431E7A323500AC25B2 /* AppDelegate.m */; };
+		DADEA9471E7A323500AC25B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9461E7A323500AC25B2 /* ViewController.m */; };
+		DADEA94A1E7A323500AC25B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADEA9481E7A323500AC25B2 /* Main.storyboard */; };
+		DADEA94C1E7A323500AC25B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADEA94B1E7A323500AC25B2 /* Assets.xcassets */; };
+		DADEA94F1E7A323500AC25B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADEA94D1E7A323500AC25B2 /* LaunchScreen.storyboard */; };
+		DADEA95A1E7A323500AC25B2 /* IMSample______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9591E7A323500AC25B2 /* IMSample______Tests.m */; };
+		DADEA9651E7A323600AC25B2 /* IMSample______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9641E7A323600AC25B2 /* IMSample______UITests.m */; };
+		DADEA9741E7A330A00AC25B2 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9731E7A330A00AC25B2 /* UIView+ITTAdditions.m */; };
+		DADEA9781E7A344200AC25B2 /* RHSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9771E7A344200AC25B2 /* RHSessionViewController.m */; };
+		DADEA9851E7A349000AC25B2 /* CellLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA97B1E7A349000AC25B2 /* CellLayoutConfig.m */; };
+		DADEA9861E7A349000AC25B2 /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA97E1E7A349000AC25B2 /* Attachment.m */; };
+		DADEA9871E7A349000AC25B2 /* AttachmentDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9801E7A349000AC25B2 /* AttachmentDecoder.m */; };
+		DADEA9881E7A349000AC25B2 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9821E7A349000AC25B2 /* ContentView.m */; };
+		DADEA9891E7A349000AC25B2 /* SessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9841E7A349000AC25B2 /* SessionConfig.m */; };
+		DADEA98C1E7A34A700AC25B2 /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA98B1E7A34A700AC25B2 /* DataProvider.m */; };
+		DADEA98E1E7A5CAA00AC25B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADEA98D1E7A5CAA00AC25B2 /* Images.xcassets */; };
+		DADEA9911E7A5E4800AC25B2 /* NTESTimerHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9901E7A5E4800AC25B2 /* NTESTimerHolder.m */; };
+		DADEA9951E7A628000AC25B2 /* NSDictionary+NTESJson.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA9941E7A628000AC25B2 /* NSDictionary+NTESJson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADEA9561E7A323500AC25B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADEA9341E7A323500AC25B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADEA93B1E7A323500AC25B2;
+			remoteInfo = "IMSample--网易云信";
+		};
+		DADEA9611E7A323600AC25B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADEA9341E7A323500AC25B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADEA93B1E7A323500AC25B2;
+			remoteInfo = "IMSample--网易云信";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35DDE6EE3686387F01FC9510 /* Pods-IMSample--网易云信.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMSample--网易云信.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMSample--网易云信/Pods-IMSample--网易云信.debug.xcconfig"; sourceTree = "<group>"; };
+		9F091F3FBD47438A39370D99 /* Pods-IMSample--网易云信.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMSample--网易云信.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMSample--网易云信/Pods-IMSample--网易云信.release.xcconfig"; sourceTree = "<group>"; };
+		D7408374548C101838ABD91F /* libPods-IMSample--网易云信.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMSample--网易云信.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEA93C1E7A323500AC25B2 /* IMSample--网易云信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMSample--网易云信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEA9401E7A323500AC25B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADEA9421E7A323500AC25B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADEA9431E7A323500AC25B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADEA9451E7A323500AC25B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DADEA9461E7A323500AC25B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DADEA9491E7A323500AC25B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADEA94B1E7A323500AC25B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADEA94E1E7A323500AC25B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADEA9501E7A323500AC25B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEA9551E7A323500AC25B2 /* IMSample--网易云信Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMSample--网易云信Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEA9591E7A323500AC25B2 /* IMSample______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IMSample______Tests.m"; sourceTree = "<group>"; };
+		DADEA95B1E7A323500AC25B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEA9601E7A323600AC25B2 /* IMSample--网易云信UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMSample--网易云信UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEA9641E7A323600AC25B2 /* IMSample______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IMSample______UITests.m"; sourceTree = "<group>"; };
+		DADEA9661E7A323600AC25B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEA9721E7A330A00AC25B2 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
+		DADEA9731E7A330A00AC25B2 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
+		DADEA9751E7A333300AC25B2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DADEA9761E7A344200AC25B2 /* RHSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHSessionViewController.h; sourceTree = "<group>"; };
+		DADEA9771E7A344200AC25B2 /* RHSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHSessionViewController.m; sourceTree = "<group>"; };
+		DADEA97A1E7A349000AC25B2 /* CellLayoutConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellLayoutConfig.h; sourceTree = "<group>"; };
+		DADEA97B1E7A349000AC25B2 /* CellLayoutConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellLayoutConfig.m; sourceTree = "<group>"; };
+		DADEA97D1E7A349000AC25B2 /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
+		DADEA97E1E7A349000AC25B2 /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attachment.m; sourceTree = "<group>"; };
+		DADEA97F1E7A349000AC25B2 /* AttachmentDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentDecoder.h; sourceTree = "<group>"; };
+		DADEA9801E7A349000AC25B2 /* AttachmentDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentDecoder.m; sourceTree = "<group>"; };
+		DADEA9811E7A349000AC25B2 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		DADEA9821E7A349000AC25B2 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		DADEA9831E7A349000AC25B2 /* SessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionConfig.h; sourceTree = "<group>"; };
+		DADEA9841E7A349000AC25B2 /* SessionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionConfig.m; sourceTree = "<group>"; };
+		DADEA98A1E7A34A700AC25B2 /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		DADEA98B1E7A34A700AC25B2 /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		DADEA98D1E7A5CAA00AC25B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADEA98F1E7A5E4800AC25B2 /* NTESTimerHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESTimerHolder.h; sourceTree = "<group>"; };
+		DADEA9901E7A5E4800AC25B2 /* NTESTimerHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESTimerHolder.m; sourceTree = "<group>"; };
+		DADEA9931E7A628000AC25B2 /* NSDictionary+NTESJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NTESJson.h"; sourceTree = "<group>"; };
+		DADEA9941E7A628000AC25B2 /* NSDictionary+NTESJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NTESJson.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADEA9391E7A323500AC25B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E23055F2B6AB64092124B1 /* libPods-IMSample--网易云信.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA9521E7A323500AC25B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA95D1E7A323600AC25B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393A9BD8025048B829328CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7408374548C101838ABD91F /* libPods-IMSample--网易云信.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98136A43CE7EDE467ADF9D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35DDE6EE3686387F01FC9510 /* Pods-IMSample--网易云信.debug.xcconfig */,
+				9F091F3FBD47438A39370D99 /* Pods-IMSample--网易云信.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DADEA9331E7A323500AC25B2 = {
+			isa = PBXGroup;
+			children = (
+				DADEA93E1E7A323500AC25B2 /* IMSample--网易云信 */,
+				DADEA9581E7A323500AC25B2 /* IMSample--网易云信Tests */,
+				DADEA9631E7A323600AC25B2 /* IMSample--网易云信UITests */,
+				DADEA93D1E7A323500AC25B2 /* Products */,
+				98136A43CE7EDE467ADF9D0C /* Pods */,
+				393A9BD8025048B829328CCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DADEA93D1E7A323500AC25B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA93C1E7A323500AC25B2 /* IMSample--网易云信.app */,
+				DADEA9551E7A323500AC25B2 /* IMSample--网易云信Tests.xctest */,
+				DADEA9601E7A323600AC25B2 /* IMSample--网易云信UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADEA93E1E7A323500AC25B2 /* IMSample--网易云信 */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA9421E7A323500AC25B2 /* AppDelegate.h */,
+				DADEA9431E7A323500AC25B2 /* AppDelegate.m */,
+				DADEA9451E7A323500AC25B2 /* ViewController.h */,
+				DADEA9461E7A323500AC25B2 /* ViewController.m */,
+				DADEA9761E7A344200AC25B2 /* RHSessionViewController.h */,
+				DADEA9771E7A344200AC25B2 /* RHSessionViewController.m */,
+				DADEA98F1E7A5E4800AC25B2 /* NTESTimerHolder.h */,
+				DADEA9901E7A5E4800AC25B2 /* NTESTimerHolder.m */,
+				DADEA9721E7A330A00AC25B2 /* UIView+ITTAdditions.h */,
+				DADEA9731E7A330A00AC25B2 /* UIView+ITTAdditions.m */,
+				DADEA98A1E7A34A700AC25B2 /* DataProvider.h */,
+				DADEA98B1E7A34A700AC25B2 /* DataProvider.m */,
+				DADEA9921E7A626F00AC25B2 /* Category */,
+				DADEA9791E7A349000AC25B2 /* CustomChatCell */,
+				DADEA9481E7A323500AC25B2 /* Main.storyboard */,
+				DADEA9751E7A333300AC25B2 /* PrefixHeader.pch */,
+				DADEA94B1E7A323500AC25B2 /* Assets.xcassets */,
+				DADEA98D1E7A5CAA00AC25B2 /* Images.xcassets */,
+				DADEA94D1E7A323500AC25B2 /* LaunchScreen.storyboard */,
+				DADEA9501E7A323500AC25B2 /* Info.plist */,
+				DADEA93F1E7A323500AC25B2 /* Supporting Files */,
+			);
+			path = "IMSample--网易云信";
+			sourceTree = "<group>";
+		};
+		DADEA93F1E7A323500AC25B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA9401E7A323500AC25B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADEA9581E7A323500AC25B2 /* IMSample--网易云信Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA9591E7A323500AC25B2 /* IMSample______Tests.m */,
+				DADEA95B1E7A323500AC25B2 /* Info.plist */,
+			);
+			path = "IMSample--网易云信Tests";
+			sourceTree = "<group>";
+		};
+		DADEA9631E7A323600AC25B2 /* IMSample--网易云信UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA9641E7A323600AC25B2 /* IMSample______UITests.m */,
+				DADEA9661E7A323600AC25B2 /* Info.plist */,
+			);
+			path = "IMSample--网易云信UITests";
+			sourceTree = "<group>";
+		};
+		DADEA9791E7A349000AC25B2 /* CustomChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA97A1E7A349000AC25B2 /* CellLayoutConfig.h */,
+				DADEA97B1E7A349000AC25B2 /* CellLayoutConfig.m */,
+				DADEA97C1E7A349000AC25B2 /* Message */,
+				DADEA9831E7A349000AC25B2 /* SessionConfig.h */,
+				DADEA9841E7A349000AC25B2 /* SessionConfig.m */,
+			);
+			path = CustomChatCell;
+			sourceTree = "<group>";
+		};
+		DADEA97C1E7A349000AC25B2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA97D1E7A349000AC25B2 /* Attachment.h */,
+				DADEA97E1E7A349000AC25B2 /* Attachment.m */,
+				DADEA97F1E7A349000AC25B2 /* AttachmentDecoder.h */,
+				DADEA9801E7A349000AC25B2 /* AttachmentDecoder.m */,
+				DADEA9811E7A349000AC25B2 /* ContentView.h */,
+				DADEA9821E7A349000AC25B2 /* ContentView.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		DADEA9921E7A626F00AC25B2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DADEA9931E7A628000AC25B2 /* NSDictionary+NTESJson.h */,
+				DADEA9941E7A628000AC25B2 /* NSDictionary+NTESJson.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADEA93B1E7A323500AC25B2 /* IMSample--网易云信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEA9691E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信" */;
+			buildPhases = (
+				FA4F499BA7AB46DBBCF3F9CD /* [CP] Check Pods Manifest.lock */,
+				DADEA9381E7A323500AC25B2 /* Sources */,
+				DADEA9391E7A323500AC25B2 /* Frameworks */,
+				DADEA93A1E7A323500AC25B2 /* Resources */,
+				C08D36373B5C3C92EED09887 /* [CP] Embed Pods Frameworks */,
+				3AAC9C662C48818F3968D14B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IMSample--网易云信";
+			productName = "IMSample--网易云信";
+			productReference = DADEA93C1E7A323500AC25B2 /* IMSample--网易云信.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADEA9541E7A323500AC25B2 /* IMSample--网易云信Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEA96C1E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信Tests" */;
+			buildPhases = (
+				DADEA9511E7A323500AC25B2 /* Sources */,
+				DADEA9521E7A323500AC25B2 /* Frameworks */,
+				DADEA9531E7A323500AC25B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADEA9571E7A323500AC25B2 /* PBXTargetDependency */,
+			);
+			name = "IMSample--网易云信Tests";
+			productName = "IMSample--网易云信Tests";
+			productReference = DADEA9551E7A323500AC25B2 /* IMSample--网易云信Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADEA95F1E7A323600AC25B2 /* IMSample--网易云信UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEA96F1E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信UITests" */;
+			buildPhases = (
+				DADEA95C1E7A323600AC25B2 /* Sources */,
+				DADEA95D1E7A323600AC25B2 /* Frameworks */,
+				DADEA95E1E7A323600AC25B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADEA9621E7A323600AC25B2 /* PBXTargetDependency */,
+			);
+			name = "IMSample--网易云信UITests";
+			productName = "IMSample--网易云信UITests";
+			productReference = DADEA9601E7A323600AC25B2 /* IMSample--网易云信UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADEA9341E7A323500AC25B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "zero-zhou";
+				TargetAttributes = {
+					DADEA93B1E7A323500AC25B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DADEA9541E7A323500AC25B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DADEA93B1E7A323500AC25B2;
+					};
+					DADEA95F1E7A323600AC25B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DADEA93B1E7A323500AC25B2;
+					};
+				};
+			};
+			buildConfigurationList = DADEA9371E7A323500AC25B2 /* Build configuration list for PBXProject "IMSample--网易云信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADEA9331E7A323500AC25B2;
+			productRefGroup = DADEA93D1E7A323500AC25B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADEA93B1E7A323500AC25B2 /* IMSample--网易云信 */,
+				DADEA9541E7A323500AC25B2 /* IMSample--网易云信Tests */,
+				DADEA95F1E7A323600AC25B2 /* IMSample--网易云信UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADEA93A1E7A323500AC25B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEA94F1E7A323500AC25B2 /* LaunchScreen.storyboard in Resources */,
+				DADEA98E1E7A5CAA00AC25B2 /* Images.xcassets in Resources */,
+				DADEA94C1E7A323500AC25B2 /* Assets.xcassets in Resources */,
+				DADEA94A1E7A323500AC25B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA9531E7A323500AC25B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA95E1E7A323600AC25B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AAC9C662C48818F3968D14B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMSample--网易云信/Pods-IMSample--网易云信-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08D36373B5C3C92EED09887 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMSample--网易云信/Pods-IMSample--网易云信-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4F499BA7AB46DBBCF3F9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADEA9381E7A323500AC25B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEA9951E7A628000AC25B2 /* NSDictionary+NTESJson.m in Sources */,
+				DADEA9781E7A344200AC25B2 /* RHSessionViewController.m in Sources */,
+				DADEA9741E7A330A00AC25B2 /* UIView+ITTAdditions.m in Sources */,
+				DADEA9891E7A349000AC25B2 /* SessionConfig.m in Sources */,
+				DADEA9881E7A349000AC25B2 /* ContentView.m in Sources */,
+				DADEA9471E7A323500AC25B2 /* ViewController.m in Sources */,
+				DADEA9911E7A5E4800AC25B2 /* NTESTimerHolder.m in Sources */,
+				DADEA9861E7A349000AC25B2 /* Attachment.m in Sources */,
+				DADEA9851E7A349000AC25B2 /* CellLayoutConfig.m in Sources */,
+				DADEA9871E7A349000AC25B2 /* AttachmentDecoder.m in Sources */,
+				DADEA98C1E7A34A700AC25B2 /* DataProvider.m in Sources */,
+				DADEA9441E7A323500AC25B2 /* AppDelegate.m in Sources */,
+				DADEA9411E7A323500AC25B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA9511E7A323500AC25B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEA95A1E7A323500AC25B2 /* IMSample______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEA95C1E7A323600AC25B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEA9651E7A323600AC25B2 /* IMSample______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADEA9571E7A323500AC25B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADEA93B1E7A323500AC25B2 /* IMSample--网易云信 */;
+			targetProxy = DADEA9561E7A323500AC25B2 /* PBXContainerItemProxy */;
+		};
+		DADEA9621E7A323600AC25B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADEA93B1E7A323500AC25B2 /* IMSample--网易云信 */;
+			targetProxy = DADEA9611E7A323600AC25B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADEA9481E7A323500AC25B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADEA9491E7A323500AC25B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADEA94D1E7A323500AC25B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADEA94E1E7A323500AC25B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADEA9671E7A323600AC25B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADEA9681E7A323600AC25B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADEA96A1E7A323600AC25B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DDE6EE3686387F01FC9510 /* Pods-IMSample--网易云信.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zero/Desktop/RHCodeSample/IM-NETEASE/IMSample--网易云信/PrefixHeader.pch";
+				INFOPLIST_FILE = "IMSample--网易云信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADEA96B1E7A323600AC25B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F091F3FBD47438A39370D99 /* Pods-IMSample--网易云信.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zero/Desktop/RHCodeSample/IM-NETEASE/IMSample--网易云信/PrefixHeader.pch";
+				INFOPLIST_FILE = "IMSample--网易云信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DADEA96D1E7A323600AC25B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IMSample--网易云信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMSample--网易云信.app/IMSample--网易云信";
+			};
+			name = Debug;
+		};
+		DADEA96E1E7A323600AC25B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IMSample--网易云信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMSample--网易云信.app/IMSample--网易云信";
+			};
+			name = Release;
+		};
+		DADEA9701E7A323600AC25B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IMSample--网易云信UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IMSample--网易云信";
+			};
+			name = Debug;
+		};
+		DADEA9711E7A323600AC25B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IMSample--网易云信UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.IMSample------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IMSample--网易云信";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADEA9371E7A323500AC25B2 /* Build configuration list for PBXProject "IMSample--网易云信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEA9671E7A323600AC25B2 /* Debug */,
+				DADEA9681E7A323600AC25B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEA9691E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEA96A1E7A323600AC25B2 /* Debug */,
+				DADEA96B1E7A323600AC25B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEA96C1E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEA96D1E7A323600AC25B2 /* Debug */,
+				DADEA96E1E7A323600AC25B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEA96F1E7A323600AC25B2 /* Build configuration list for PBXNativeTarget "IMSample--网易云信UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEA9701E7A323600AC25B2 /* Debug */,
+				DADEA9711E7A323600AC25B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADEA9341E7A323500AC25B2 /* Project object */;
+}
